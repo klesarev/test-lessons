@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Тестовое задание</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/uikit.min.css" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+
+    <div class="container">
+
+        
+        <h2 class="uk-heading-line uk-text-center"><span>Курсы</span></h2>
+
+        <section class="filters">
+            <select name="subject" id="subject" class="subject uk-select" onchange="sorted()">
+                <option value="">Все предметы</option>
+                <option value="Алгебра">Алгебра</option>
+                <option>Английский язык</option>
+                <option>Биология</option>
+                <option>География</option>
+                <option>Геометрия</option>
+                <option>Демо-версия</option>
+                <option>Естествознание</option>
+                <option>Информатика</option>
+                <option>История</option>
+                <option>Математика</option>
+                <option>Обществознание</option>
+                <option>Окружающий мир</option>
+                <option>Русский язык</option>
+                <option>Физика</option>
+                <option>Химия</option>
+            </select>
+            <select name="genre" id="genre" class="genre uk-select" onchange="sorted()">
+                <option value="">Все жанры</option>
+                <option>Задачник</option>
+                <option>Медиа-коллекция</option>
+                <option>Рабочая тетрадь</option>
+            </select>
+            <select name="grade" id="grade" class="grade uk-select" onchange="sorted()">
+                <option value="">Все классы</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+            </select>
+            <input class="search uk-input" type="text" placeholder="Поиск" id="search" name="search">
+            <button onclick="sorted()" class="uk-button uk-button-primary">найти</button>
+            
+            <select name="price" id="price" class="price uk-select" onchange="sorted()">
+                <option value="price">рубли</option>
+                <option value="priceBonus">бонусы</option>
+            </select>
+        </section>
+
+        <div class="list-wrapper">
+            
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

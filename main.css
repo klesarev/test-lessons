@@ -1,0 +1,74 @@
+.container {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+
+.filters {
+    margin: 0 auto;
+    display: block;
+    padding: 30px 0;
+}
+
+.list-wrapper {
+    background: #e2e1e0;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-item {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 15px 55px;
+    width: 195px;
+    min-height: 260px;
+    background: #fff;
+    vertical-align: top;
+    padding: 0;
+}
+.search {
+    display: inline-block;
+    width: 25%;
+    margin-right: 10px;
+}
+.filters select {
+    width: 16%;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.filters select.price {
+    width: 10%;
+    float: right;
+}
+.card-figure {
+    position: relative;
+    overflow: hidden;
+    height: 134px;
+    background: #ddd;
+}
+.card-block {
+    padding: 15px 5px;
+}
+.card-image {
+    border-radius: none;
+}
+.card-info {
+    padding: 10px 16px;
+}
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-genre,
+.card-grade {
+    font-size: 15px;
+    margin: 5px 0;
+}
+.card-link {
+    margin-top: 10px;
+    width: 90%;
+    padding: 0 10px;
+    text-transform: none;
+}
