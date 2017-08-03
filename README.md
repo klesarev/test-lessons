@@ -4,5 +4,5 @@
 Решил не делать на React + Redux или Vue JS + Vuex.
 Запрос асинхронный. можно использовать fetch, но для него нужен полифилл.
 
-### блог: klesarev.github.io
-### почта: klesareff.igor@yandex.ru
+###### блог: klesarev.github.io
+###### почта: klesareff.igor@yandex.ru
