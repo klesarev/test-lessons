@@ -10,7 +10,6 @@
 // глобальные переменные
 // состояние приложения
 var store = {};
-var priceType;
 
 // формируем асинхронный запрос
 var xhr = new XMLHttpRequest();
